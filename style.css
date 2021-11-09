@@ -1,0 +1,61 @@
+.fcontainer {
+    /* now fcontainer will be a flexbox */
+    display: flex;
+
+    border: 2px solid grey;
+
+    /* vh mtlb viewport height*/
+    height: 45vh;
+
+    /* by default flex ki direction row hoti hai*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* by default justify-content flex-start hota hai*/
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow -> flex-direction flex-wrap */
+    /* flex-flow: column wrap; */
+
+}
+
+.fitem {
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+
+.item1 {
+    /* jiska order bda wo sabse baad mei ayega */
+    order: 3;
+
+    /* by default flex-grow 1 hota hai */
+    /* flex-grow: 3; */
+
+    /* by default flex-shrink 1 hota hai */
+    /* jabhi hum apne page ko shrink karenge to item1 class ka element sabse jayada shrink hoga */
+    /* flex-shrink: 2; */
+
+    /* align-self: center; */
+}
+
+.item4 {
+    /* jiska order bda wo sabse baad mei ayega */
+    order: 4;
+
+    /* flex-grow: 2; */
+}
